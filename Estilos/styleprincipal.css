@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(https://www.actualidadiphone.com/wp-content/uploads/2016/03/Clash-Royale-830x400.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+a{
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 10px 50px;
+    color: white;
+    text-decoration: none;
+    background-color: #ffab18;
+    font-family:'Press Start 2P', cursive;
+}
+
+
+.btn :hover{
+    background-color: gray;
+    color: black;
+    text-align: center;
+}
+
